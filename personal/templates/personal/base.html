@@ -1,0 +1,34 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+	<title>{% block head_title %}Dhanya John{% endblock %}</title>
+
+	{% include 'personal/head_css.html' %}
+	{% include 'personal/javascript.html' %}
+</head>
+
+<body>
+{% block additional_styles %}
+	<style>
+	body {
+		background-image:WHITE;
+	}
+	</style>
+{% endblock %}
+
+{% include 'personal/navbar.html' %}
+
+{% block content %}
+{% endblock %}
+
+
+
+<!-- Footer -->
+{% include 'personal/footer.html' %}
+
+</body>
+</html>

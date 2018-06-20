@@ -1,0 +1,50 @@
+{% extends "personal/base.html" %}
+{% block head_title %}{{ block.super }} | Welcome{% endblock %}
+
+{% block additional_styles %}
+<style>
+   body {
+    background-image:url('/static/personal/img/home-bg-img.jpg');
+   }
+   nav a{
+    color: WHITE !important;
+   }
+   nav a:hover{
+     color:#d2d2d2 !important;
+   }
+   nav{
+     background-color: transparent !important;
+   }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container content text-center">
+  <h1>Our Features</h1>
+</div>
+
+<div class="container text-center pt-4">
+  <div class="row">
+    <div class="col-4">
+      <i class="fas fa-bars fa-7x"></i>
+      <p class="pt-5">F Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+    </div>
+    <div class="col-4">
+      <i class="far fa-check-circle fa-7x"></i>
+      <p class="pt-5">S Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+    </div>
+    <div class="col-4">
+      <i class="fas fa-comment-dots fa-7x"></i>
+      <p class="pt-5">T Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+    </div>
+  </div>
+</div>
+
+<!--Parallax-->
+<div class="parallax">
+</div>
+
+<!--Contact Us-->
+{% include 'personal/contact.html' %}
+
+{% endblock %}

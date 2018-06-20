@@ -1,0 +1,82 @@
+html,body{
+  height: 100vh;
+  width:100vw;
+}
+body{
+  /* background-image:url('/static/personal/img/home-bg-img.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+*{
+  font-family: 'Lato', sans-serif; /*Berlin Sans FB;*/
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link .navbar-brand{
+  color: WHITE !important;
+}
+.navbar-brand{
+  font-size: 3vw !important;
+}
+.nav-link{
+  font-size: 1.5vw !important;
+}
+.content{
+  margin-top: 50vw;
+  margin-bottom: 5vw;
+}
+h1{
+  font-size: 5vw !important;
+}
+p{
+  font-size: 22px;
+  text-align: center;
+}
+
+.parallax{
+  height:30vw;
+  width:100vw;
+  background-image: url('/static/personal/img/footer-bg.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: WHITE;
+}
+input[type="text"]
+{
+  width: 25vw;
+}
+textarea{
+  width: 52vw;
+}
+
+.blogcontent{
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  text-align: left;
+}
+
+.blog-post-meta{
+  font-size: 1vw;
+  text-align: left;
+  color: #7e7c7d;
+}
+.post-title a{
+  color: BLACK !important;
+}
+
+.blog-article{
+  margin-top: 5vw;
+}
+.article-img{
+
+}
+/* Ghost CSS for debugging */
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */

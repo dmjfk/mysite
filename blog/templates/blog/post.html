@@ -1,0 +1,10 @@
+{% extends "personal/base.html" %}
+
+{% block content %}
+	<h3>{{post.title}}</h3>
+	<h6>{{post.date}}</h6>
+	{% if post.image %}
+	<img src="{{ post.image.url }}" width="250">
+	{% endif %}
+	{{post.body|safe|linebreaks}}
+{% endblock %}
