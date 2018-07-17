@@ -1,0 +1,32 @@
+.blogcontent{
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  text-align: left;
+}
+
+.blog-post-meta{
+  font-size: 1vw;
+  text-align: left;
+  color: #7e7c7d;
+}
+.post-title a{
+  color: BLACK !important;
+}
+
+.blog-article{
+  margin-top: 5vw;
+}
+
+.post-title h1{
+  font-size : 3vw !important;
+}
+.post-date-time{
+  margin-bottom: 2vw;
+}
+.post-date-time h6{
+  font-size: 1vw;
+  text-align: left;
+}
+.post-image{
+  margin-bottom: 2vw;
+}

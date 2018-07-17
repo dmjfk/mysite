@@ -9,7 +9,7 @@ body{
   background-repeat: no-repeat;
 }
 *{
-  font-family: 'Lato', sans-serif; /*Berlin Sans FB;*/
+  font-family: 'Nunito', sans-serif; /*Berlin Sans FB;*/
   margin: 0;
   padding: 0;
 }
@@ -19,9 +19,18 @@ body{
 }
 .navbar-brand{
   font-size: 3vw !important;
+  font-family: 'Pacifico', cursive;
 }
 .nav-link{
   font-size: 1.5vw !important;
+  font-family: 'Josefin Sans',sans-serif;
+}
+.navbar-nav li{
+  padding-right: 1.5vw;
+  padding-left: .5vw;
+}
+.navbar-toggler-icon{
+  /* background-color: transparent !important; */
 }
 .content{
   margin-top: 50vw;
@@ -32,12 +41,14 @@ h1{
 }
 p{
   font-size: 22px;
-  text-align: center;
+  text-align: justify;
+  /* font-family: 'Montserrat', sans-serif !important; */
 }
 
 .parallax{
   height:30vw;
   width:100vw;
+  margin-top: 5vw;
   background-image: url('/static/personal/img/footer-bg.jpg');
   background-position:center;
   background-repeat: no-repeat;
@@ -53,26 +64,12 @@ textarea{
   width: 52vw;
 }
 
-.blogcontent{
-  margin-top: 2vw;
-  margin-bottom: 5vw;
-  text-align: left;
+.contactus h1{
+  text-align: center;
 }
 
-.blog-post-meta{
-  font-size: 1vw;
-  text-align: left;
-  color: #7e7c7d;
-}
-.post-title a{
-  color: BLACK !important;
-}
-
-.blog-article{
-  margin-top: 5vw;
-}
-.article-img{
-
+footer p{
+text-align: center;
 }
 /* Ghost CSS for debugging */
 /* * {

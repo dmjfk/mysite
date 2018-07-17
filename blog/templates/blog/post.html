@@ -1,10 +1,21 @@
 {% extends "personal/base.html" %}
 
+
 {% block content %}
-	<h3>{{post.title}}</h3>
-	<h6>{{post.date}}</h6>
+<div class="container blogcontent">
+	<div class="row post-title">
+		<h1>{{post.title}}</h1>
+	</div>
+	<div class="row post-date-time">
+		<h6>{{post.date}}</h6>
+	</div>
+	<div class="row post-image">
 	{% if post.image %}
 	<img src="{{ post.image.url }}" width="250">
 	{% endif %}
+	</div>
+	<div class="row post-body">
 	{{post.body|safe|linebreaks}}
+	</div>
+</div>
 {% endblock %}
