@@ -14,9 +14,6 @@ body{
   padding: 0;
 }
 
-.nav-link .navbar-brand{
-  color: WHITE !important;
-}
 .navbar-brand{
   font-size: 3vw !important;
   font-family: 'Pacifico', cursive;
@@ -28,9 +25,6 @@ body{
 .navbar-nav li{
   padding-right: 1.5vw;
   padding-left: .5vw;
-}
-.navbar-toggler-icon{
-  /* background-color: transparent !important; */
 }
 .content{
   margin-top: 50vw;
