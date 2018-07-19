@@ -5,7 +5,7 @@
 }
 
 .blog-post-meta{
-  font-size: 1vw;
+  font-size: 15px;
   text-align: left;
   color: #7e7c7d;
 }
@@ -18,13 +18,13 @@
 }
 
 .post-title h1{
-  font-size : 3vw !important;
+  font-size : 4.5vw !important;
 }
 .post-date-time{
   margin-bottom: 2vw;
 }
 .post-date-time h6{
-  font-size: 1vw;
+  font-size: 10px;
   text-align: left;
 }
 .post-image{
