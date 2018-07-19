@@ -1,12 +1,13 @@
 html,body{
-  height: 100vh;
-  width:100vw;
+  height: auto;
+  width:100%;
 }
 body{
-  /* background-image:url('/static/personal/img/home-bg-img.jpg'); */
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: WHITE;
 }
 *{
   font-family: 'Nunito', sans-serif; /*Berlin Sans FB;*/
@@ -27,7 +28,7 @@ body{
   padding-left: .5vw;
 }
 .content{
-  margin-top: 50vw;
+  margin-top: 5vw;
   margin-bottom: 5vw;
 }
 h1{
@@ -36,7 +37,6 @@ h1{
 p{
   font-size: 22px;
   text-align: justify;
-  /* font-family: 'Montserrat', sans-serif !important; */
 }
 
 .parallax{

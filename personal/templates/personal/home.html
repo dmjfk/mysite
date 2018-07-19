@@ -3,11 +3,11 @@
 
 {% block additional_styles %}
 <style>
-   body {
+   /* body {
     background-image:url('/static/personal/img/home-bg-img.jpg');
-   }
+   } */
    /*
-      //for making homepage navigation white with transparent background//
+      //for making homepage navigation text white with transparent background//
    nav a{
     color: WHITE !important;
    }
@@ -22,6 +22,10 @@
    }
  */
 </style>
+{% endblock %}
+
+{% block homeimg %}
+  <img src="./static/personal/img/home-bg-img.jpg" class="img-fluid" alt="Responsive image"/>
 {% endblock %}
 
 {% block content %}
