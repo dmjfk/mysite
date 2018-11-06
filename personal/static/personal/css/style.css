@@ -1,6 +1,7 @@
 html,body{
   height: auto;
   width:100%;
+  overflow-x: hidden; 
 }
 body{
   background-position: center center;
@@ -9,35 +10,60 @@ body{
   background-attachment: fixed;
   background-color: WHITE;
 }
+  
 *{
-  font-family: 'Nunito', sans-serif; /*Berlin Sans FB;*/
+  font-family: 'Nunito', sans-serif; 
   margin: 0;
   padding: 0;
 }
 
+.landing
+{
+ padding: 0;
+ margin: 0; 
+}
+
+.landing img{
+  height:auto;
+  width:100vw;
+}
 .navbar-brand{
-  font-size: 3vw !important;
+  font-size: 2rem !important;
   font-family: 'Pacifico', cursive;
 }
 .nav-link{
-  font-size: 1.5vw !important;
+  font-size: 1rem !important;
   font-family: 'Josefin Sans',sans-serif;
 }
 .navbar-nav li{
   padding-right: 1.5vw;
   padding-left: .5vw;
 }
+
+.navbar-toggler {
+  position: absolute;
+  top: 1.25rem;
+  
+}
+
+.navbar-toggler-icon{
+  width: 1em;
+  height: 1em;
+  text-align: center;
+}
+
 .content{
-  margin-top: 5vw;
-  margin-bottom: 5vw;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
-h1{
-  font-size: 5vw !important;
+.content h2{
+  font-family: 'Josefin Sans',sans-serif;
 }
-p{
-  font-size: 22px;
+.content-body p{
+  font-size: 1rem;
   text-align: justify;
 }
+
 
 .parallax{
   height:30vw;
@@ -50,14 +76,11 @@ p{
   background-size: cover;
   color: WHITE;
 }
-input[type="text"]
-{
-  width: 25vw;
-}
-textarea{
-  width: 52vw;
-}
 
+
+.contactus p{
+  text-align: justify;
+}
 .contactus h1{
   text-align: center;
 }
@@ -71,3 +94,19 @@ text-align: center;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 } */
+@media (max-width: 792px){
+  .nav-link{
+    font-size: .75rem !important;
+  }
+}
+@media (max-width: 768px) { 
+  .nav>li {
+	text-align: center;
+  }
+  .nav-link{
+    font-size: 1rem !important;
+  }
+  .parallax {
+    height: 50vw;
+}
+}

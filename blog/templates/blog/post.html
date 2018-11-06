@@ -10,12 +10,12 @@
 		<div class="col-md-12 post-date-time">
 			<h6>{{post.date}}</h6>
 		</div>
-		<div class="col-md-12 post-image">
+		<div class="col-md-12 post-image text-center">
 		{% if post.image %}
 		<img src="{{ post.image.url }}" class="img-fluid">
 		{% endif %}
 		</div>
-		<div class="col-md-12 post-body">
+		<div class="col-md-12 post-body text-center">
 		{{post.body|safe|linebreaks}}
 		</div>
 	</div>

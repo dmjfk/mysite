@@ -9,12 +9,12 @@
 			<h5 class="post-title"><a href="/blog/{{post.id}}"> {{post.title}}</a></h5>
 			<p class="blog-post-meta">{{ post.date|date:"d-m-Y" }}</p>
 		</div>-->
-		<div class="col-md-4 article-img">
+		<div class="col-md-4 article-img text-center mb-2">
 			{% if post.image %}
-			<img src="{{ post.image.url }}" class="img-fluid" width="300">
+			<img src="{{ post.image.url }}" class="img-fluid">
 			{% endif %}
 		</div>
-		<div class="col-md-8">
+		<div class="col-md-8 article-meta mb-2">
 			<h3 class="post-title"><a href="/blog/{{post.id}}"> {{post.title}}</a></h3>
 			<p class="blog-post-meta">{{ post.date|date:"d-m-Y" }}</p>
 			<p class="text-left">{{ post.body|safe|truncatewords:"25" }}</p>
